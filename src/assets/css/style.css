@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 243, 245);
+    font-size: 16px;
+    color: #000;
+    line-height: 1.8;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+
+/* layout */
+
+.plans {
+    margin: 30px auto;
+    width: 1145px;
+}
+
+.plans h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.plans .lead-text {
+    color: rgb(155, 155, 156);
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.plans .left-group {
+    float: left;
+    width: 460px;
+}
+
+.plans .left-group .image img {
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.plans .left-group h3 {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.plans .left-group p {
+    color: rgb(155, 155, 156);
+    font-size: 15px;
+}
+
+.plans .right-group {
+    float: right;
+    width: 650px;
+}
+
+.plans .right-group .info-list li .image img {
+    float: left;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.plans .right-group .info-list li .detail {
+    float: right;
+    width: 520px;
+}
+
+.plans .right-group .info-list li {
+    margin: 49px 0;
+}
+
+.plans .right-group .info-list li:nth-child(4n+1) {
+    margin-top: 0px;
+}
+
+.plans .right-group .info-list li .detail h3 {
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.plans .right-group .info-list li .detail p {
+    color: rgb(155, 155, 156);
+    font-size: 15px;
+}
